@@ -1,0 +1,24 @@
+{
+  "name": "now-svelte-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build": "build-storybook -c .storybook -o public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-actions": "^5.2.0",
+    "@storybook/addon-links": "^5.2.0",
+    "@storybook/addons": "^5.2.0",
+    "@storybook/svelte": "^5.2.0",
+    "babel-loader": "^8.0.6",
+    "svelte": "^3.12.1",
+    "svelte-loader": "^2.13.6"
+  }
+}
